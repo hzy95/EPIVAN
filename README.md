@@ -8,14 +8,14 @@ The three contributions of this work are as follows: (1) We use DNA vectors pre-
 
   A tool of data augmentation provided by Mao et al. (2017). The details of the tool can be seen in https://github.com/wgmao/EPIANN.
 
-  We used this tool to amplify the posi-tive samples in the training set to 20 times to achieve class balance.
+  We used this tool to amplify the positive samples in the training set to 20 times to achieve class balance.
 
 - sequence_processing.py
 
   Perform pre-processing of DNA sequences:
 
-  1.	Convert the enhancer and promoter gene sequences into se-quences consisting of words (6-mers), and if a word contains a ‘N’, the word is marked as ‘NULL’.
-  2.	Construct a dictionary containing 46+1 words.
+  1.	Convert the enhancer and promoter gene sequences into sequences consisting of words (6-mers), and if a word contains a ‘N’, the word is marked as ‘NULL’.
+  2.	Construct a dictionary containing 4^6+1 words.
   3.	Convert each gene sequence into a sequence of word indexes according to the dictionary (each word has its own unique in-dex).
  
 - embedding_matrix.npy

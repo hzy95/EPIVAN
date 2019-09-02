@@ -27,8 +27,10 @@ The three contributions of this work are as follows: (1) We use DNA vectors pre-
   Perform model training.
 
   You can find the weight of the model mentioned in our paper under the directory model/.
+  
+  
   Directory| Content
-  --- | ---
+  ---|---
   model/specificModel/| the weight of EPIVAN-specific on each cell line.
   model/generalModel/| the weight of EPIVAN-general.
   model/retrainModel/| the weight of EPIVAN-best on each cell line.
@@ -38,6 +40,7 @@ The three contributions of this work are as follows: (1) We use DNA vectors pre-
 - test.py
 
   Evaluate the performance of model.
+  
 
 
 
